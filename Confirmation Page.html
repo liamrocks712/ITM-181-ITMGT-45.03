@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Order Confirmation - My E-Commerce Site</title>
+</head>
+<body>
+    <header>
+        <h1>Order Confirmation</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="checkout.html">Checkout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Thank You for Your Purchase!</h2>
+        <p>Your order has been successfully completed.</p>
+        <p>Order Summary:</p>
+        <div id="order-summary">
+            <!-- Order summary will be dynamically populated here -->
+        </div>
+        <p>Your confirmation number is: <strong id="confirmation-number">#123456</strong></p>
+        <button onclick="window.location.href='index.html'">Return to Home</button>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
